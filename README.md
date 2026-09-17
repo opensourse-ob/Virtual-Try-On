@@ -6,6 +6,23 @@ A full-stack application that generates a clothing preview from a photo of the u
 
 The Gemini prompt attempts to preserve the person, pose, facial features, and background while changing the clothing. These details are not guaranteed to remain unchanged in the generated image.
 
+## Demo
+
+<table>
+  <tr>
+    <th>Input images</th>
+    <th>Generated try-on</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/images/virtual-try-on-input.png" alt="Person and clothing image previews on the upload screen" width="600"></td>
+    <td valign="top"><img src="docs/images/virtual-try-result.png" alt="Generated try-on result" width="400"></td>
+  </tr>
+</table>
+
+**Try-on gallery**
+
+![Try-on gallery showing completed results and input thumbnails](docs/images/virtual-try-on-gallery.png)
+
 ## How it works
 
 1. The user selects a person photo and a clothing image, with previews before submission.
